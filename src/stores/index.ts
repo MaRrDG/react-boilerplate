@@ -1,4 +1,4 @@
-import Store from "./Store";
+import Store from "./userStore";
 
 export const stores = {
   Store,

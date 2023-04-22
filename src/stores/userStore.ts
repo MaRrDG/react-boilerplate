@@ -1,12 +1,12 @@
 import { makeObservable, observable } from "mobx";
 
-export class Store {
-  list = [];
+export class UserStore {
+  usersList = [];
   constructor() {
     makeObservable(this, {
-      list: observable,
+      usersList: observable,
     });
   }
 }
 
-export default new Store();
+export default new UserStore();
